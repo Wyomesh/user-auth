@@ -1,0 +1,46 @@
+.registerPage {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  height: 100vh;
+}
+.left,
+.right {
+  display: grid;
+  justify-content: center;
+  align-self: center;
+}
+.left img {
+  background: red;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.registerForm {
+  display: grid;
+  width: 30vw;
+}
+.registerForm input {
+  display: grid;
+  margin: 1rem 0;
+}
+.PhoneInputInput,
+.registerForm input {
+  padding: 0.5rem;
+  font-size: 17px;
+}
+input[type="file"] {
+  display: none;
+}
+.loginRedirect {
+  padding: 1rem;
+  text-align: center;
+}
+.loginRedirect a {
+  text-decoration: none;
+}
+.loginRedirect p {
+  font-size: 14px;
+}

@@ -1,0 +1,20 @@
+.authorizationContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.authorization {
+  display: grid;
+  justify-content: center;
+}
+.authorization p {
+  padding: 1rem;
+  font-size: 18px;
+}
+.authorization p span {
+  padding: 0 0.5rem;
+}
+.authorization p span input {
+  margin: 0 0.3rem;
+}

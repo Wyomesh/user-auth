@@ -1,0 +1,32 @@
+.loginContainer {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.loginForm {
+  display: grid;
+  width: 30vw;
+}
+
+.loginForm > input,
+.PhoneInputInput {
+  font-size: 17px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.loginForm p {
+  text-align: center;
+  padding: 0.5rem;
+}
+.loginForm p span {
+  padding: 0.5rem;
+}
+.loginForm p input:hover,
+label:hover {
+  cursor: pointer;
+}
+.emailInput,
+.phoneInpt {
+  display: none;
+}
